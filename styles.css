@@ -11,12 +11,12 @@
 --header-height-difference: calc(
   var(--header-outer-height) - var(--header-inner-height)
 );
---header-bg: rgb(255, 184, 122);
+--header-bg: #ffcca0;
 }
 
 body {
 font-family: "DM Sans", sans-serif;
-background-color: rgba(251, 192, 140, 0.86);
+background-color: rgba(255, 219, 187, 0.86);
 line-height: 1.5;
 min-height: 300vh;
 position: relative;
@@ -62,7 +62,7 @@ justify-content: space-between;
 /* Styling of other elements */
 .header-logo img {
 display: block;
-height: calc(var(--header-inner-height) - 30px);
+height: calc(var(--header-inner-height) - 2px);
 }
 
 .header-navigation {
@@ -115,39 +115,6 @@ left: 0;
 margin-top: 3rem;
 }
 
-.widget {
-width: 100%;
-max-width: 600px;
-border-radius: 8px;
-box-shadow: 0 15px 30px 0 rgba(0,0,0, 0.1);
-background-color: #fff;
-padding: 2.5rem;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 2rem;
-font-size: 1.125rem;
-}
-
-.widget > * + * {
-margin-top: 1.25em;
-}
-
-.widget h2 {
-font-size: 1.5rem;
-font-weight: 700;
-line-height: 1.25;
-}
-
-.widget code {
-display: inline-block;
-padding: 0.125em 0.25em;
-border-radius: 2px;
-background-color: #bee5d3;
-}
-
-.widget strong {
-font-weight: 700;
-}
 
 @media (min-width: 800px) {
 .header-navigation a {
