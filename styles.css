@@ -11,7 +11,7 @@
 --header-height-difference: calc(
   var(--header-outer-height) - var(--header-inner-height)
 );
---header-bg: #ffac64;
+--header-bg: #fd9b45;
 }
 
 body {
@@ -21,6 +21,8 @@ background-color: rgba(255, 219, 187, 0.86);
 line-height: 1.5;
 min-height: 300vh;
 position: relative;
+margin: 0;
+margin-top: 0;
 }
 
 .responsive-wrapper {
@@ -66,6 +68,8 @@ display: block;
 max-width: 100px;
 height: auto;
 height: calc(var(--header-inner-height) - 2px);
+padding-top: 2px;
+padding-bottom: 2px;
 }
 
 .header-navigation {
