@@ -133,10 +133,18 @@ margin-top: 3rem;
 }
 
 .wrapper {
-  text-align: center;
-}
-.wrapper h1{
+  position: relative;
   text-align: center;
 
+  z-index: -100;
   
+}
+.textbox {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  font-size: 4rem;
+  top: 40%;
+  left:50%;
+  min-width: 100%;
 }
