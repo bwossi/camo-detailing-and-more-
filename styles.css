@@ -128,3 +128,15 @@ margin-top: 3rem;
   display: none;
 }
 }
+.background {
+  min-width: 100%;
+}
+
+.wrapper {
+  text-align: center;
+}
+.wrapper h1{
+  text-align: center;
+
+  
+}
